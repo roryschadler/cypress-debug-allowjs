@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node"],
+    // only change to recommended tsconfig here:
+    // https://docs.cypress.io/guides/tooling/typescript-support
+    "allowJs": true
+  },
+  "include": ["**/*.ts"]
+}
